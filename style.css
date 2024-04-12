@@ -1,0 +1,83 @@
+/* GLOBAL STYLES */
+
+*, *::before, *::after {
+
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+.clear {
+
+	clear: both;
+
+}
+
+.clearfix::after,
+.clearfix::before {
+
+	content: "";
+	display: block;
+	clear: both;
+
+}
+
+#home
+{
+	margin-bottom: 80px;
+}
+.buttons
+{
+	margin: 50px 0 70px 0;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.button-flex,
+.button-float,
+.button-bold,
+.button-bold-reflexive,
+.button-bislite,
+.button-form-application
+{
+    flex: 1;
+}
+
+.button-float,
+.button-bold,
+.button-flex,
+.button-bold-reflexive,
+.button-bislite,
+.button-form-application
+{
+ color: black;
+	width: 100px;
+	height: 350px;
+}
+
+
+.button-flex,
+.button-float,
+.button-bold,
+.button-bold-reflexive,
+.button-bislite,
+.button-form-application
+{
+	background-image: url(../datacenter.flex.jpg);
+}
+
+
+#portfolio > h2,
+#contact >h2
+
+{
+text-align: center;
+}
+
+#contact
+{
+	margin: 200px 0 100px 0;
+}

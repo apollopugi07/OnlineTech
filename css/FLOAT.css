@@ -1,0 +1,309 @@
+
+/* GLOBAL STYLES */
+
+*, *::before, *::after {
+
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+.clear {
+
+	clear: both;
+
+}
+
+.clearfix::after,
+.clearfix::before {
+
+	content: "";
+	display: block;
+	clear: both;
+
+}
+
+.header-logo, .header-tagline, .footer-icons > li{
+	float: left;	
+}
+
+html {background-color: rgb(242, 242, 242);}
+
+#header-container {
+	background-color: #474747;
+	height: 100px;
+	width: auto;
+	margin: 50px auto 10px auto;
+
+}
+
+.header-inner-container {
+	height: 100%;
+	width: 800px;
+	margin: auto;
+}
+
+
+
+#body-wrapper {
+	margin: 50px;
+	height: 500px;
+}
+
+.header-tagline{
+	width: 500px;
+}
+
+.header-tagline h3 {
+	color: #bcbcbc;
+	margin: 20px auto 20px 20px;
+	margin-left: -10px;
+	font-size: 20px;
+}
+
+.header-logo {
+	background-color: #2f549B;
+	margin-top: -15px;
+	box-shadow: 0 2px 4px rgba(1, 1, 1, 1); /* Add box shadow */
+	height: 130px;
+	width:300px
+
+}
+
+.header-logo img, .header-logo h1, .header-logo p {
+	float: left;
+	
+}
+
+.header-logo h1, p {
+	margin: 20px 7px;
+	color: #f1f1f1;
+}
+
+.header-logo p {
+	color: rgb(195, 195, 195);
+}
+
+.header-logo h1 {
+	margin-left: -30px;
+	margin-top:  30px;;
+	font-size: 60px;
+}
+
+.header-logo img {
+	margin-left: -30px;
+	margin: 30px;
+}
+
+.header-logo p {
+	margin-top: 45px;
+	font-size: 15px;
+}
+
+
+
+#panel-container {
+	margin: 0 auto;
+	width: 980px;
+	height: 300px;
+
+}
+
+.panel-box {
+	list-style-type: none;
+
+	text-align: center;
+
+}
+
+.panel-box li {
+	float: left;
+	width: 198px;	
+	margin-right: 20px;
+	background-color: white;
+	padding: 10px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+.panel-box li p {
+	font-size: 12px;
+
+}
+
+.panel-box li:first-child {
+	margin-left: 80px;
+}
+
+.panel-box li:hover {
+	background-color: #265dc4;
+}
+
+.panel-box h3 {
+	font-size: 25px;
+	color:#2d5499;
+}
+
+
+
+.panel-box p {
+	color:#4b75bd;
+	font-size: small;
+}
+
+.panel-box a {
+	color: #cbcbcb;
+}
+
+#footer-container {
+	position: relative;
+	padding: auto;
+	margin: 0 auto;
+	margin-left: 170px;
+	margin-top: 100px;
+	width: 850px;
+	height: 150px;
+	background-color: #c6c6c6;
+	box-shadow: inset 0 5px 4px rgba(1, 1, 0, 0.1);
+}
+
+.footer-title {
+	text-align: center;
+	background-color: #265dc4;
+	font-size: 25px;
+	margin: 0 0px -20px 603px;
+	height: 50px;
+	width: 250px;
+	padding-top: 10px;
+	color: white;
+	z-index: 100;
+	position: absolute;
+	top: -30px;
+	right: -5px;
+	left: -280px;
+}
+.footer-icons {
+	padding: 0;
+}
+
+ul {
+	list-style: none;
+}
+
+.footer-icons > li * {
+	list-style-type: none;
+	margin: 0 auto;
+	text-align: center;
+	z-index: -1;
+}
+
+
+.footer-icons li h5 {
+	font-size: 8px;
+	color: #686868;
+}
+
+.footer-icons li:hover h5 {
+	color: white;
+}
+
+.footer-icons li {
+	
+	width: 130px;
+	height: 100px;
+	background-color: #c6c6c6;
+	padding: 25px;
+	z-index: -1;
+	margin-right: 10px;
+	border-radius: 5px;
+
+	
+}
+.footer-title > li img
+{
+  margin-top: -20px;
+}
+
+.footer-icons 
+li:first-child {
+	margin-left: 10px;
+}
+
+.footer-icons li:hover{
+	background-color: #265dc4;
+	color:white;
+	border-radius: 5px;
+}	
+
+
+.panel-box li:hover h3,
+.panel-box li:hover a {
+    color: white;
+}
+
+.panel-box li .panel-description {
+	color:black;
+}
+
+.panel-box li hr {
+	margin: 0 auto;
+	width: 75px;
+	height: 1px;
+	border-color:rgb(195, 195, 195)(218, 218, 218);
+}
+
+.panel-box li:hover hr{
+	border-color:rgb(195, 195, 195)(218, 218, 218);
+
+}
+
+.panel-box li:hover .panel-subtitle {
+	color:white;
+}
+
+.footer-icons li:hover {
+	height:100px;
+	margin-top: 30px;
+}
+
+.footer-icons li:hover img {
+	margin-top: -20px;
+}
+
+.panel-box li:hover .panel-description {
+    color: #85a3d7;
+}
+
+.footer-title ::before
+{
+	content: "";
+	display: block;
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 0 30px 20px 0;
+	border-color: transparent #1f345f transparent transparent;
+	position: absolute;
+	scroll-margin-bottom: 0;
+	left: -29px;
+	bottom: 0;
+}
+.footer-title ::after
+{
+	content: "";
+	display: block;
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 20px 30px 0 0;
+	border-color:#1f345f transparent  transparent transparent;
+	position: absolute;
+	scroll-margin-bottom: 0;
+	right: -29px;
+	bottom: 0;
+}
+
+#spacer {
+    height: 40px; /* Adjust height as needed */
+}
