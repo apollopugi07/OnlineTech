@@ -41,7 +41,8 @@
 .button-bold,
 .button-bold-reflexive,
 .button-bislite,
-.button-form-application
+.button-form-application,
+.button-carousel
 {
     flex: 1;
 }
@@ -51,7 +52,8 @@
 .button-flex,
 .button-bold-reflexive,
 .button-bislite,
-.button-form-application
+.button-form-application,
+.button-carousel
 {
  color: black;
 	width: 100px;
@@ -64,7 +66,8 @@
 .button-bold,
 .button-bold-reflexive,
 .button-bislite,
-.button-form-application
+.button-form-application,
+.button-carousel
 {
 	background-image: url(../datacenter.flex.jpg);
 }
