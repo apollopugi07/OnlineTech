@@ -1,11 +1,11 @@
-
 $(document).ready(function() {
 
     var result;
     var mode_;
-  
-    //rectangle
 
+    var tmode;
+    var tresult;
+  
     $('#rec-compute').on('click', function() {
   
       var length_ = $('#rec-length').val();
@@ -45,94 +45,88 @@ $(document).ready(function() {
   
     });
 
-    //triangle
-
     $('#tri-compute').on('click', function() {
   
-        var base_ = $('#tri-base').val();
-        var height_ = $('#tri-height').val();
-        var side1_ = Number($('#tri-side1').val());
-        var side2_ = Number($('#tri-side2').val());
-        var side3_ = Number($('#tri-side3').val());
-        mode_ = $('#tri-mode').val();
+        var base = $('#tri-base').val();
+        var height = $('#tri-height').val();
+        var side1 = $('#tri-side1').val();
+        var side2 = $('#tri-side2').val();
+        var side3 = $('#tri-side3').val();
+        tmode = $('#tri-mode').val();
     
-        if (mode_ == 'Tri-Area') {
+        if (tmode == 'Tri-Area') {
     
-          result = 0.5 * base_ * height_;
+          tresult = .5 * base * height;
     
     
         } else {
     
-          result = side1_ + side2_ + side3_;
-    
+          tresult = parseFloat(side1)+parseFloat(side2)+parseFloat(side3);
+
         }
     
-        $('#tri-result').val(result.toFixed(2));
+        $('#tri-result').val(tresult.toFixed(2));
     
       });
-    
+
       $('#tri-mode').on('change', function() {
+  
+        tmode = $('#tri-mode').val();
     
-        mode_ = $('#tri-mode').val();
+          if (tmode == 'Tri-Area') {
     
-          if (mode_ == 'Tri-Area') {
-    
-            mode_ = 'Triangle - Area';
-            $('.per-container').hide() 
-            $('.area-container').show() 
+            tmode = 'Triangle - Area';
+            $('.area-container').show()
+            $('.per-container').hide();
     
           } else {
     
-            mode_ = 'Triangle - Perimeter';
-            $('.per-container').show() 
-            $('.area-container').hide() 
-
+            tmode = 'Triangle - Perimeter';
+            $('.area-container').hide()
+            $('.per-container').show();
+    
           }
         
-        $('#tri-legend').text(mode_);
-    
-      });
-  
-      //circle
+        $('#tri-legend').text(tmode);
+    });
 
-      $('#cir-compute').on('click', function() {
+    $('#cir-compute').on('click', function() {
   
-        var radius_ = $('#cir-radius').val();
-        mode_ = $('#cir-mode').val();
+        var radius = $('#cir-radius').val();
+        cirmode = $('#cir-mode').val();
+        var cresult 
     
-        if (mode_ == 'Cir-Area') {
+        if (cirmode == 'Cir-Area') {
     
-          result = Math.PI * radius_ * radius_;
-    
+          cresult = math.pow(radius,2) * Math.PI;
     
         } else {
     
-          result =  2* Math.PI  * radius_;
+          cresult = 2 * math.PI * radius;
     
         }
+        console.log(cresult);
     
-        $('#cir-result').val(result.toFixed(2));
+        $('#cir-result').val(cresult.toFixed(2));
     
       });
     
       $('#cir-mode').on('change', function() {
     
-        mode_ = $('#cir-mode').val();
+        cirmode = $('#cir-mode').val();
     
-          if (mode_ == 'Cir-Area') {
+          if (cirmode == 'Cir-Area') {
     
-            mode_ = 'Circle - Area';
+            cirmode = 'Circle - Area';
     
           } else {
     
-            mode_ = 'Circle - Perimeter';
+            cirmode = 'Circle - Perimeter';
     
           }
         
-        $('#cir-legend').text(mode_);
+        $('#cir-legend').text(cirmode);
     
       });
-
-
-  });
   
+  });

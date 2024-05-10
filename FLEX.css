@@ -1,0 +1,190 @@
+/* GLOBAL STYLES */
+
+*, *::before, *::after {
+
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+.clear {
+
+	clear: both;
+
+}
+
+.clearfix::after,
+.clearfix::before {
+
+	content: "";
+	display: block;
+	clear: both;
+
+}
+
+#header-container{
+	background-color: #474747;
+	margin: 50px 0;
+}
+.header-inner-container
+{
+	width: 960px;
+	height:100px;
+background-color:  #474747;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+}
+.header-tagline
+{
+	flex: 1.25;
+	color: #8d8d8d;
+
+
+}
+.header-logo
+{
+	height: 140px;
+	background-color: #2f549b;
+	display: flex;
+	flex: 1;
+	align-items: center;
+	justify-content: space-evenly;
+}
+.header-logo >h1
+{
+	font-size: 60px;
+	color:white;
+}
+.header-logo >p{
+	font-size: 20px;
+	color:#6e6e6e;
+}
+#body-wrapper
+{
+	width: 960px;
+	margin: 30px auto;
+}
+#panel-container
+{
+
+    margin-bottom: 60px;
+}
+.panel-title
+{
+	color: #2d5499;
+    font-size:30px;
+    margin-top: 10px;
+}
+ .panel-subtitle
+ {
+    color:#9aadcd;
+ }
+
+
+.panel-description, a, .panel-subtitle
+{
+	align-items: center;
+	margin:20px 0;
+	font-size:12px;
+}
+.panel-description
+{
+	color: #6e6e6e;
+}
+.panel-box
+{
+    text-align: center;
+	display: flex;
+	justify-content: space-between;
+	gap: 20px;
+}
+.panel-box >li{
+	padding: 30px;
+	background-color: white;
+	list-style: none;
+	border: 1px solid white;
+}
+.panel-box  :hover{
+    background: #2f549b;
+}
+.panel-box >li:hover *
+{
+	color: white;
+}
+.panel-box, a 
+{
+	color: #cbcbcb;
+}
+#footer-container
+{
+	background-color: #c6c6c6;
+	padding: 10px 15px 20px 15px;
+	border-top: 2px solid #9a9a9a;
+}
+.footer-icons
+{
+	margin-top: -10px;
+	text-align: center;
+	align-items: center;
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	gap: 20px;
+}
+.footer-icons >li{
+
+	flex: 1;
+	padding: 10px;
+	color: #686868;
+}
+.footer-icons >li:hover
+{
+
+    color: white;
+    background: #2f549b;
+    border: 5px;
+}
+.footer-title
+{
+	color: white;
+	padding: 20px;
+	background-color:#2f549b;
+	width: 200px;
+	margin: 0 auto;
+	position: relative;
+	top: -41px;
+}
+.footer-title ::before
+{
+	content: "";
+	display: block;
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 0 30px 30px 0;
+	border-color: transparent #1f345f transparent transparent;
+	position: absolute;
+	scroll-margin-bottom: 0;
+	left: -29px;
+	bottom: 0;
+}
+.footer-title ::after
+{
+	content: "";
+	display: block;
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 30px 30px 0px 0;
+	border-color: #1f345f transparent  transparent transparent;
+	position: absolute;
+	scroll-margin-bottom: 0;
+	right: -29px;
+	bottom: 0;
+}
+body
+{
+	background-color: #ededed;
+}
