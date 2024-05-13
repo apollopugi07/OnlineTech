@@ -58,24 +58,9 @@
 .button-jetro
 {
  color: black;
- background-color: aqua;
 	width: 100px;
 	height: 350px;
 }
-
-
-.button-flex,
-.button-float,
-.button-bold,
-.button-bold-reflexive,
-.button-bislite,
-.button-form-application,
-.button-carousel,
-.button-jetro
-{
-	background:  url('../img/thumbnail-04.jpg');
-}
-
 
 #portfolio > h2,
 #contact >h2
