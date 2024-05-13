@@ -67,16 +67,12 @@
 .button-float,
 .button-bold,
 .button-bold-reflexive,
-.button-bislite
-{
-	background-image:url(/img/slider-nk.jpg);
-}
-
+.button-bislite,
 .button-form-application,
 .button-carousel,
 .button-jetro
 {
-	background-image: url(/img/slider-bl.jpg);
+	background-image:url(/img/slider-nk.jpg);
 }
 
 

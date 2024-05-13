@@ -256,7 +256,6 @@ slider {
 
 }
 
-/* Style the accordion button */
 .accordion {
 	background-color: #f3f3f3;
 	color: #444;
@@ -269,13 +268,12 @@ slider {
 	transition: background-color 0.4s;
 }
 
-/* Style the active button */
+
 .accordion.active,
 .accordion:hover {
 	background-color: #ddd;
 }
 
-/* Style the panel */
 .panel {
 	display: none;
 	background-color: white;
@@ -283,7 +281,7 @@ slider {
 	padding: 0 18px;
 }
 
-/* Show the panel when the button is active */
+
 .panel.show {
 	display: block;
 }
