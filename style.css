@@ -67,7 +67,11 @@
 .button-float,
 .button-bold,
 .button-bold-reflexive,
-.button-bislite,
+.button-bislite
+{
+		background:  url('../img/thumbnail-06.jpg');
+		background-size: cover;
+}
 .button-form-application,
 .button-carousel,
 .button-jetro
