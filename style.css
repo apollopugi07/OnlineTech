@@ -42,7 +42,8 @@
 .button-bold-reflexive,
 .button-bislite,
 .button-form-application,
-.button-carousel
+.button-carousel,
+.button-jetro
 {
     flex: 1;
 }
@@ -53,7 +54,8 @@
 .button-bold-reflexive,
 .button-bislite,
 .button-form-application,
-.button-carousel
+.button-carousel,
+.button-jetro
 {
  color: black;
 	width: 100px;
@@ -67,7 +69,8 @@
 .button-bold-reflexive,
 .button-bislite,
 .button-form-application,
-.button-carousel
+.button-carousel,
+.button-jetro
 {
 	background-image: url(../datacenter.flex.jpg);
 }
