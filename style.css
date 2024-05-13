@@ -73,6 +73,7 @@
 .button-jetro
 {
 	background:  url('../img/thumbnail-04.jpg');
+	background-size: cover;
 }
 
 
