@@ -57,7 +57,7 @@
 .button-carousel,
 .button-jetro
 {
- color: black;
+ color: white;
 	width: 100px;
 	height: 350px;
 }
@@ -67,7 +67,11 @@
 .button-float,
 .button-bold,
 .button-bold-reflexive,
-.button-bislite,
+.button-bislite
+{
+	background-image:url(/img/slider-nk.jpg);
+}
+
 .button-form-application,
 .button-carousel,
 .button-jetro
