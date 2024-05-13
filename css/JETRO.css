@@ -121,27 +121,27 @@ li {
 }
 
 .slider-first {
-	background-image: url(/img/slider-image.jpg);
+	background-image: url(/img/thumbnail-01.jpg);
 }
 
 .slider-second {
-	background-image: url(/img/slider-gb.jpg);
+	background-image: url(/img/thumbnail-02.jpg);
 }
 
 .slider-third {
-	background-image: url(/img/slider-do.jpg);
+	background-image: url(/img/thumbnail-03.jpg);
 }
 
 .slider-four {
-	background-image:url(/img/slider-nk.jpg);
+	background-image: url(/img/thumbnail-04.jpg);
 }
 
 .slider-fifth {
-	background-image: url(/img/slider-rt.jpg) ;
+	background-image: url(/img/thumbnail-05.jpg);
 }
 
 .slider-six {
-	background-image: url(/img/slider-bl.jpg);
+	background-image: url(/img/thumbnail-06.jpg);
 }
 
 .slider_item {
