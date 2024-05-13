@@ -121,7 +121,7 @@ li {
 }
 
 .slider-first {
-	background:  url('../img/thumbnail-01.jpg');
+	background-image:  url('../thumbnail-01.jpg');
 	background-size: cover;
 }
 
@@ -461,7 +461,6 @@ slider {
 
 
 
-/*----------RESPONSIVE SETTINGS----------*/
 @media(max-width: 1000px) {
 	.works_title {
 		min-width: 120px;
