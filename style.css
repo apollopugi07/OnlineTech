@@ -43,7 +43,8 @@
 .button-bislite,
 .button-form-application,
 .button-carousel,
-.button-jetro
+.button-jetro,
+.button-basic-crud
 {
     flex: 1;
 }
@@ -55,7 +56,8 @@
 .button-bislite,
 .button-form-application,
 .button-carousel,
-.button-jetro
+.button-jetro,
+.button-basic-crud
 {
  color: black;
 	width: 100px;
