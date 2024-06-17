@@ -44,7 +44,8 @@
 .button-form-application,
 .button-carousel,
 .button-jetro,
-.button-basic-crud
+.button-basic-crud,
+.button-final-exam
 {
     flex: 1;
 }
@@ -57,7 +58,8 @@
 .button-form-application,
 .button-carousel,
 .button-jetro,
-.button-basic-crud
+.button-basic-crud,
+.button-final-exam
 {
  color: black;
 	width: 100px;
